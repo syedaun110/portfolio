@@ -1,0 +1,228 @@
+body{
+    background-color:azure;
+}
+
+
+.navbar{
+ 
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    background: linear-gradient( rgb(185, 130, 11),rgb(224, 219, 219));
+    color: azure;
+    padding: 2px;
+    margin: 5px;
+    border-radius: 50px;
+    padding-left: 20px;
+    padding-right: 20px;
+    text-decoration: none;
+    box-shadow: 0px 2px 20px 5px rgb(65, 43, 3);
+}
+
+.title{
+    color: black;
+
+}
+
+.manu a{
+    color: black;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 30px;
+    padding-right: 30px;
+    text-decoration: none;
+    font-weight: bolder;
+}
+.navbar button{
+    color: rgb(255, 255, 255);
+    font-weight: bolder;
+    border: none;
+    border-radius: 30px;
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: rgb(94, 65, 12);
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.navbar button:hover{
+     background-color: rgb(207, 192, 151);
+    color:rgb(82, 55, 4) ;
+}
+
+.container-left{
+ 
+    align-items: center;
+    justify-content: center;
+    border-radius: 30px;
+
+}
+.container-left h2{
+
+    color: rgb(0, 0, 0);
+    padding: 20px;
+    margin: 10px;
+    font-size: 30px;
+    margin: 20px;
+    margin-top: 20px;
+}
+.container-left h1{
+    color:rgba(85, 73, 8, 0.815);
+    transition: 0.2s;
+    cursor: pointer;
+    margin: 30px;
+    font-size: 60px;
+    margin-left: 440px;
+    text-decoration: underline black;
+    padding: -30px;
+}
+
+
+.container-left h4{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: black;
+    padding: 5px; 
+    margin: 20px;  
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+
+}
+.container-left button{
+    color: rgb(255, 255, 255);
+    font-weight: bolder;
+    border: none;
+    border-radius: 30px;
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: rgb(94, 65, 12);
+    transition: 0.5s;
+    margin: 0px 20px;
+    cursor: pointer;
+    
+}
+
+.container-left button:hover{
+       background-color: rgb(207, 192, 151);
+    color:rgb(82, 55, 4) ;
+
+}
+.information h1{
+     color:rgba(85, 73, 8, 0.815);
+     text-decoration: underline black;
+     font-size: 40px;
+}
+.information button{
+        color: rgb(255, 255, 255);
+    font-weight: bolder;
+    border: none;
+    border-radius: 30px;
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: rgb(94, 65, 12);
+    transition: 0.5s;
+    margin: 20px;
+    cursor: pointer;
+
+}
+.information button:hover{
+    background-color: rgb(207, 192, 151);
+    color:rgb(82, 55, 4) ;
+
+}
+.information{
+    background-color: rgb(226, 221, 188);
+    border-radius: 60px;   
+}
+.information p{
+    padding: 10px;
+    margin: 20px;
+    font-size: 17px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.information-2{
+    background-color: rgb(226, 221, 188);
+    border-radius: 60px;   
+    margin: 10px;
+}
+.information-2 h1{
+     color:rgba(85, 73, 8, 0.815);
+     text-decoration: underline rgb(15, 12, 12);
+     font-size: 40px;
+}
+
+
+.card h1{
+    color:rgba(85, 73, 8, 0.815);
+     text-decoration: underline rgb(15, 12, 12);
+     font-size: 40px;
+     margin: 40px;
+     
+}
+.card{
+    background-color: rgb(226, 221, 188) ;
+    margin: 10px;
+    border-radius: 50px; 
+    margin-left: 2px;   
+    margin-right: 2px; 
+    padding: 15px;
+}
+.card h2{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    margin-bottom: 5px;
+}
+.card p{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    margin-bottom: 10px;
+}
+.skill h1{
+ color:rgba(85, 73, 8, 0.815);
+     text-decoration: underline rgb(15, 12, 12);
+     font-size: 40px;
+     margin: 40px;
+}
+.skill{
+    background-color: rgb(226, 221, 188) ;
+    border-radius: 50px; 
+margin-left: 2px;   
+    margin-right: 2px; 
+    margin: 10px;
+    padding: 10px;
+}
+.skill p{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+    background-color: rgb(88, 59, 5);
+    color: white;
+    border-color: beige;
+    border-radius: 10px 50px;
+    padding: 10px;
+    transition: 0.10s;
+    cursor: pointer;
+    
+}
+.skill p:hover{
+    color: black;
+    background-color: rgb(204, 167, 86);
+    
+}
+
+.projects h1{
+    color:rgba(85, 73, 8, 0.815);
+     text-decoration: underline rgb(15, 12, 12);
+     font-size: 40px;
+     margin: 40px;
+}
+.projects img{
+    justify-content: center;
+    align-items: center;
+}
